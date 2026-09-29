@@ -26,7 +26,7 @@ const page = () => {
          {/* Floating Brand Mark (Mobile only) */}
          <div className="absolute top-6 left-6 lg:hidden z-10">
            <span className="text-xl font-serif font-bold text-white tracking-widest drop-shadow-md">
-             Alsalaam Geomaping Surveying ltd
+             Kadek Multiservices ltd
              <span className="text-amber-400">.</span>
            </span>
          </div>

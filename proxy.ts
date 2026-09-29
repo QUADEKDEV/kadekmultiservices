@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export function proxy(request: NextRequest) {
-  const maintenanceMode = true; // toggle this
+  const maintenanceMode =true; // toggle this
 
   if (maintenanceMode) {
     return NextResponse.rewrite(new URL("/maintenance", request.url));
