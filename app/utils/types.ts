@@ -1,10 +1,7 @@
-export interface News {
+export interface Newss {
   id: string;
-  name: string;
-  description: string;
-  price: number;
+  title: string;
+  story: string;
   image: string;
-  capacity: number;
-  size: string;
-  amenities: string[];
+  date:string;
 }

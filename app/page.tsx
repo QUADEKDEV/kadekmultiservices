@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import ParallaxSection from './components/Parallax'
 import Sendmail from './components/Sendmail'
 import Gis from './components/Gis'
+import { News } from './components/News'
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <Navbar/>
       <ServicesSection/>
       <Gis/>
+      <News/>
       <ParallaxSection/>
       <Sendmail/>
       <Footer/>
