@@ -324,7 +324,7 @@ export default function ContactPage() {
             </div>
 
             {/* Floating Info Card */}
-            <div className="absolute bottom-6 left-6 right-6 md:left-12 md:right-auto md:w-80 bg-white/95 backdrop-blur-md p-6 rounded-2xl shadow-lg border border-slate-100 z-10">
+            <div className="hidden md:block absolute bottom-6 left-6 right-6 md:left-12 md:right-auto md:w-80 bg-white/95 backdrop-blur-md p-6 rounded-2xl shadow-lg border border-slate-100 z-10">
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="p-2 bg-amber-50 rounded-lg text-amber-600 shrink-0">
