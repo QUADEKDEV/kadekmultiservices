@@ -24,7 +24,7 @@ const Team = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              name: "Surv. Q.A. adejumobi (mnis)",
+              name: "Surv. Q.A. Adejumobi(mnis)",
               role: "Principal Surveyor",
               img: "/media/md.png",
             },
