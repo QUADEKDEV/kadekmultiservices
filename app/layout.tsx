@@ -15,10 +15,11 @@ const siteUrl = "https://www.kadekmultiservices.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: "Professional Land Surveyors in [Osun State]",
-    template: "%s | [Kadek Multiservices Ltd.]",
-  },
+   title:"Kadek Multiservices Ltd.",
+  //  {
+  //   default: "Professional Land Surveyors in [Nigeria]",
+  //   template: "%s | [Kadek Multiservices Ltd.]",
+  // },
   description:
     "Professional land surveying, boundary surveys, topographic surveys and land demarcation in [Osun State]. Contact our team for a survey quotation.",
   applicationName: "[Kadek Multiservices Ltd.]",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en",
     siteName: "[Kadek Multiservices Ltd.]",
-    title: "Professional Land Surveyors in [Osun State]",
+    title: "Professional Land Surveyors in [Nigeria]",
     description: "Reliable land surveying and property measurement services.",
     url: siteUrl,
     images: [
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1682663810771-89d21838530f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         width: 1200,
         height: 630,
-        alt: "Land surveyors carrying out a field survey",
+        alt: "GNSS",
       },
     ],
   },
